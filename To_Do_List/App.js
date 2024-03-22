@@ -24,7 +24,7 @@ const App = () => {
     <SafeAreaView style={styles.container}>
       <TextInput
         style={styles.input}
-        placeholder="Add new todo"
+        placeholder="Add new todo list"
         value={text}
         onChangeText={setText}
       />
